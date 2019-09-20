@@ -17,7 +17,32 @@
     font-family: 'Cute Font', cursive;
 }
 
-.footer{
-    font-size:20px;
-    background-color:antiquewhite;
+.footer-area-bottom{
+    border:0px peachpuff;
+    background-color: #f1f1f1f1;
+    margin-bottom:20px;
+    padding-top: 10px;
+    color: blue;
+    font-size: 20px;
+    margin-top: 90px;
 }
+
+.intro{
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    background-color: rgba(0, 200, 0, 0.9)
+}
+
+.form{
+    background-color: green;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+btn btn-primary{
+    color:green;
+}
+
