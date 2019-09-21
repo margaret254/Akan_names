@@ -57,6 +57,55 @@ function getGender(){
     else{
         return false;
     }
+    switch(gender){
+        case "male":
+        if(dayValue == 0){
+            alert("Your akan name is " +maleNames[0]+"!");
+        }
+        else if(dayValue == 1){
+            alert("Your akan name is " +maleNames[1]+"!");
+        }
+        else if(dayValue == 2){
+            alert("Your akan name is " +maleNames[2]+"!");
+        }
+        else if(dayValue == 3){
+            alert("Your akan name is " +maleNames[3]+"!");
+        }
+        else if(dayValue == 4){
+            alert("Your akan name is " +maleNames[4]+"!");
+        }
+        else if(dayValue == 5){
+            alert("Your akan name is " +maleNames[5]+"!");
+        }
+        else if(dayValue == 6){
+            alert("Your akan name is " +maleNames[6]+"!");
+        }
+        break;
+        case "female":
+        if (dayValue == 0){
+            alert("Your akan name is " +femaleNames[0]+"!");
+        }
+        else if(dayValue == 1){
+            alert("YOur akan name is " +femaleNames[1]+"!");
+        }
+        else if(dayValue == 2){
+            alert("YOur akan name is " +femaleNames[2]+"!");
+        }
+        else if(dayValue == 3){
+            alert("YOur akan name is " +femaleNames[3]+"!");
+        }
+        else if(dayValue == 4){
+            alert("YOur akan name is " +femaleNames[4]+"!");
+        }
+        else if(dayValue == 5){
+            alert("YOur akan name is " +femaleNames[5]+"!");
+        }
+        else if(dayValue == 6){
+            alert("YOur akan name is " +femaleNames[6]+"!");
+        }
+        break
+        default:
+    }
 }
 
 
