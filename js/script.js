@@ -28,8 +28,7 @@ function validate(){
         alert("You must select male or female");
         return false;
     }
-
-    else {
+    else{
         return true;
     }
 }
@@ -47,6 +46,18 @@ function calculateDayValue(){
 
 }
 
+function getGender(){
+    var genderSelected = document.getElementsByName("gender");
+    if(genderSelected[0].checked = true){
+        var gender = "male";
+    }
+    else if(gender[1].checked == true){
+        var gender = "female";
+    }
+    else{
+        return false;
+    }
+}
 
 
 
