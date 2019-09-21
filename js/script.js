@@ -28,4 +28,38 @@ function validate(){
         alert("You must select male or female");
         return false;
     }
+
+    else {
+        return true;
+    }
 }
+
+function calculateDayValue(){
+    year = document.getElementById("year").value;
+    century = parseInt(year.slice(0,2));
+    year = parseInt(year.slice(2,4));
+    month = parseInt(document.getElementById("month").value);
+    date = parseInt(document.getElementById("date").value);
+
+    d=( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date ) % 7;
+    console.log(d);
+    return(Math.floor(d));
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
