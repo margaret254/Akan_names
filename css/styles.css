@@ -1,18 +1,28 @@
+body{
+    background-image: url("https://www.un-page.org/files/public/styles/panopoly_image_full/public/pages/ghana_beach.png?itok=aLkxOj8S");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
 .jumbotron{
     text-align: center;
-    background-color: rgba(250, 0, 0, 0.8);
+    background-color: rgb(206,17,38);
     font-size: 25px;
     font-family: 'Signika', sans-serif;
+
 }
 
 .male_name{
-    background-color: #ffd000cc;
+    background-color: rgb(252,209,22);
     font-size: 30px;
     font-family: 'Cute Font', cursive;
 }
 
 .female_name{
-    background-color: #ffd000cc;
+    background-color: rgb(252,209,22);
     font-size: 30px;
     font-family: 'Cute Font', cursive;
 }
@@ -30,13 +40,13 @@
 .intro{
     text-align: center;
     font-family: 'Signika', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    color:green;
 }
 
 .form{
-    background-color: green;
-    height: 450px;
-    width: 900px;
+    background-color:rgb(0,107,63);
+    width: 100%;
     border-radius: 10px;
     margin: 10px;
 }
