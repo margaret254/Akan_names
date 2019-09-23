@@ -41,8 +41,8 @@ The program compares the input with the conditions set for the input,If no input
 * 0 < Date >= 31.
 * 0 < Month >= 12
 * Gender Male or Female. <br/>  
- Output example: **You were born on Sunday and Your akan name is Kwasi!** &nbsp If your gender is Male.<br/>
- Output example: **You were born on Sunday and Your akan name is  Akosua!** &nbsp If your gender is female.  
+ Output example: **You were born on Sunday and Your akan name is Kwasi!**  If your gender is Male.<br/>
+ Output example: **You were born on Sunday and Your akan name is  Akosua!**  If your gender is female.  
 
 **Example**
 * year input   -- 1920
