@@ -40,8 +40,8 @@ Submit.
 The program compares the input with the conditions set for the input,If no input,that is the field is empty,the program executes an alert for you to enter valid details.
 * 0 < Date >= 31.
 * 0 < Month >= 12
-* Gender Male or Female. <br/>  
- Output example: **You were born on Sunday and Your akan name is Kwasi!**  If your gender is Male.<br/>
+* Gender Male or Female.  
+ Output example: **You were born on Sunday and Your akan name is Kwasi!**  If your gender is Male.
  Output example: **You were born on Sunday and Your akan name is  Akosua!**  If your gender is female.  
 
 **Example**
