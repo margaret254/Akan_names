@@ -44,14 +44,22 @@ body{
     color:black;
 }
 
-.form{
-    background-color:rgb(0,107,63);
-    width: 100%;
-    border-radius: 10px;
+
+#form_data{
+background-color: green;
+width: 100%;
+}
+
+.form-group{
+    padding-left:50px;
+}
+
+.row2{
     margin: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    /* border-radius: 5px; */
 }
-
-btn btn-primary{
-    color:green;
+.input{
+    padding-left: 5px;
 }
-
