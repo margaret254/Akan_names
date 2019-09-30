@@ -27,7 +27,6 @@ This project is a web application that takes a user's birthday and calculates th
 * Font awesome icons
 
 
-
 ## Contact Information 
 
 If you have any question or contributions, or issues with the application, please send them to [https://github.com/margaret254/Akan_names/issues]
