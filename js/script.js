@@ -5,8 +5,8 @@ function formRefresh(){
 
 // Event function on button
 function akanNames(){
-
-  var birthDate=document.getElementById("birthdate").value;
+birthDate.split("-");
+birthDate.split("-");").value;
   var dateEntered= birthDate.split("-");
   var day=parseInt(dateEntered[2]);
   var month=parseInt(dateEntered[1]);
