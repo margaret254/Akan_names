@@ -5,15 +5,15 @@ function formRefresh(){
 
 // Event function on button
 function akanNames(){
-birthDate.split("-");
-birthDate.split("-");").value;
+
+  var birthDate=document.getElementById("birthdate").value;
   var dateEntered= birthDate.split("-");
   var day=parseInt(dateEntered[2]);
   var month=parseInt(dateEntered[1]);
   var year=parseInt(dateEntered[0]);
 
   //Century calculation
-  var century=(year)/100; 
+  var century=(year-1)/100+1; 
   var dayOfTheWeek = ( century/4 -2*century-1 + 5*year/4  + 26*(month+1)/10 + day ) % 7;
       
   document.getElementById("display").innerHTML=Math.round(dayOfTheWeek);
